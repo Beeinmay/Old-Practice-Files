@@ -1,0 +1,79 @@
+body {
+	background-color: #fff;
+}
+
+/* centered information */
+
+.holder {
+    text-align: center;
+    margin: auto;
+}
+
+.wrap {
+    margin: auto;
+}
+
+/* div. event and div .button organize blocks of elements*/
+
+div .event {
+	display: inline-block;
+	padding: 10px;
+	border: 2px dashed #eee; 
+	margin: 20px;
+	width: 17%;
+	overflow: auto;
+}
+
+div .event.image {
+	vertical-align: top;
+	width: 160px;
+	overflow: hidden;
+}
+
+.event h6 {
+	font-size: 16px;
+	padding: 0;
+	padding-top: 20px;
+	margin: 0;
+}
+
+.event p {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+div .button, div .plan {
+	display: inline-block;
+	padding-top: 50px;
+}
+
+div .button a, div .plan a {
+	font-family: courier;
+	text-decoration: none;
+}
+
+div .button a { /*similar to nav menu items but with more padding*/
+	padding: 40px 60px 40px 60px;
+	background-color: #000;
+	color: #fff;
+}
+
+div .plan a {
+	font-weight: bold;
+	padding: 40px 80px 40px 80px;
+	background-color: red;
+	color: black;
+}
+
+div .button a:hover {
+	background-color: #777;
+}
+
+div .plan a:hover {
+	background-color: #ff7c7c;
+}
+
+.morebotspace {
+	padding-bottom: 100px;
+}
+
